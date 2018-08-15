@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+}
+
+h1{
+	font-size: 50px;
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	background-color: #ff9090;
+	font-family: 'Roboto', sans-serif;
+	padding: 50px;
+}
+
+p{
+	text-indent: 50px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+
+#first{
+	background-color: white;
+	color: #ff9090;
+}
+
+#second{
+	background-color: #6dc9c8;
+	color: white;
+}

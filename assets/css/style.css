@@ -1,0 +1,59 @@
+/* System Fonts as used by Medium and WordPress */
+body {
+  /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*/
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    color:red;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+	font-style: italic;
+	color: white;
+	background-color: red;
+	height: 300px;
+}
+
+.box1 {
+	height: 100px;
+	background-color: #7045AF;
+}
+
+.box2 {
+	height: 600px;
+	background-image: url('../image/sample.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.paragraph1 {
+    color:blue;
+    background-color: rgb(255,258,0);
+}
+
+.paragraph1 span{
+    font-size: 3em;
+    color: black;
+}
+
+.paragraph2{
+    font-weight: 700;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.paragraph2 a{
+	text-decoration: none;
+}
+
+.paragraph3{
+	text-indent: 100px;
+	letter-spacing: 5px;
+	word-spacing: 20px;
+}
