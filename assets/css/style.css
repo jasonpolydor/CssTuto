@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+*{
+	margin: 0;
+}
+
 p{
     color:red;
 }
@@ -16,11 +20,17 @@ h1{
 	color: white;
 	background-color: red;
 	height: 300px;
+	margin:5px;
+	outline-width: 5px;
+	outline-style: dotted;
+	outline-color: chartreuse;
+
 }
 
 .box1 {
 	height: 100px;
 	background-color: #7045AF;
+	display: none;
 }
 
 .box2 {
@@ -40,20 +50,31 @@ h1{
 .paragraph1 span{
     font-size: 3em;
     color: black;
+	background-color: chartreuse;
+	display: inline-block;
+	height: 400px;
+	width: 500px;
 }
 
 .paragraph2{
     font-weight: 700;
     font-style: italic;
     font-variant: small-caps;
+	padding-top: 40px;
+	margin-bottom: 50px;
+	background-color: black;
 }
 
 .paragraph2 a{
+	display: block;
 	text-decoration: none;
+	background-color: red;
 }
 
 .paragraph3{
 	text-indent: 100px;
 	letter-spacing: 5px;
 	word-spacing: 20px;
+	display: inline;
+	background-color: deepskyblue;
 }
