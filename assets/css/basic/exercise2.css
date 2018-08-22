@@ -1,0 +1,26 @@
+*{
+    margin:0;
+}
+
+.container{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#first{
+    background-image: url('../../image/1.jpg');
+}
+
+#second{
+    background-image: url('../../image/2.jpg');
+}
+
+#third{
+    background-image: url('../../image/3.jpg');
+}
+
+#fourth{
+    background-image: url('../../image/4.jpg');
+}
