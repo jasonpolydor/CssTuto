@@ -68,3 +68,34 @@ button{
 	right: 0;
 	transition: height 0.3s;
 }
+
+#three{
+	position: relative;
+}
+
+#three:before{
+	content: '';
+	width:0%;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top:0;
+	right: 0;
+	transition: width 0.3s;
+}
+
+#three:after{
+	content: '';
+	width: 0%;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	transition: width 0.3s;
+}
+
+#three:hover:before,
+#three:hover:after{
+	width:100%;
+}
